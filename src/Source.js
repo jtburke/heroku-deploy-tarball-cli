@@ -61,7 +61,7 @@ function Source(options) {
           })
           .then(function () {
             Logger.ok('\u2714 success ' + urls.get_url);
-            resolve(urls.put_url);
+            resolve(urls.get_url);
           })
           .catch(function (e) {
             Logger.ok('\u2718 failed');
