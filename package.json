@@ -1,0 +1,45 @@
+{
+  "name": "heroku-deploy-tarball-cli",
+  "version": "1.0.0",
+  "description": "creates source, uploads tarball and pushes to heroku.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jtburke/heroku-deploy-tarball-cli.git"
+  },
+  "keywords": [
+    "heroku",
+    "cli",
+    "tarball",
+    "tar",
+    "tar.gz",
+    "deploy",
+    "build",
+    "pipeline",
+    "api"
+  ],
+  "author": "@CodeMenace",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtburke/heroku-deploy-tarball-cli/issues"
+  },
+  "homepage": "https://github.com/jtburke/heroku-deploy-tarball-cli#readme",
+  "dependencies": {
+    "bluebird": "^2.10.1",
+    "chalk": "^1.1.1",
+    "chance": "^0.7.7",
+    "commander": "^2.8.1",
+    "node-netrc": "^0.1.0",
+    "request-promise": "^0.4.3",
+    "through": "^2.3.8"
+  },
+  "bin": {
+    "heroku-deploy-tarball": "src/index.js"
+  }
+}
