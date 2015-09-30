@@ -1,6 +1,6 @@
 {
   "name": "heroku-deploy-tarball-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "creates source, uploads tarball and pushes to heroku.",
   "main": "src/index.js",
   "directories": {
