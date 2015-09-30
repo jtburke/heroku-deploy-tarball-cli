@@ -54,7 +54,10 @@ function Source(options) {
         request
           .put({
             url: urls.put_url,
-            body: data
+            body: data,
+            headers: {
+              'Content-type': ''
+            }
           })
           .then(function () {
             Logger.ok('\u2714 success ' + urls.get_url);
